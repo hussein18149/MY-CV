@@ -46,9 +46,8 @@ body {
   color: orangered;
 }
 
-
 .home-inner {
-  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/macbook-accessories-1559333387.jpg?crop=0.502xw:1.00xh;0.239xw,0&resize=640:*');
+  background-image: url('https://images.pexels.com/photos/2866909/pexels-photo-2866909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
 }
 
 .home-pay {
@@ -63,6 +62,15 @@ body {
   z-index: 1;
   color: white;
   text-transform: uppercase;
+  /* background-color: black;
+  height: 100%;
+  opacity: 0.75; */
+}
+
+#kadweka {
+  width: 250px;
+  height: 200px;
+  border-radius: 55%;
 }
 
 .caption h1 {
@@ -70,13 +78,13 @@ body {
   font-weight: 700;
   letter-spacing: 0.3rem;
   text-shadow: 0.1rem 0.1rem 0.8rem black;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 }
 
 .caption h3 {
   font-size: 2rem;
   text-shadow: 0.1rem 0.1rem 0.5rem black;
-  padding-bottom: 1.6rem;
+  padding-bottom: 2.6rem;
 }
 
 .btn-lg {
@@ -135,7 +143,6 @@ body {
   padding-right: 30px;
   padding-left: 30px;
   color: white;
-
 }
 
 h3.heading {
@@ -144,7 +151,6 @@ h3.heading {
   text-transform: uppercase;
   margin-bottom: 1.9rem;
 }
-
 
 .heading-underline {
   width: 3rem;
@@ -173,7 +179,7 @@ h3.heading {
 }
 
 .fixed {
-  background-image: url(https://t3.ftcdn.net/jpg/01/94/85/00/240_F_194850092_jrkrWvfV9RyNUFbzmcqWJnyCV1hX5yAf.jpg);
+  background-image: url(https://cdn.windowsreport.com/wp-content/uploads/2019/06/laptop-error.jpg);
   z-index: -1;
 }
 
@@ -253,71 +259,76 @@ hr.socket {
   text-align: center;
   margin-left: 20%;
 }
+
 [class*="col-"] {
-    padding: 1rem;
-  }
+  padding: 1rem;
+}
 
-  .row, .container-fluid {
-  margin-left: 0px!important;
-  margin-right: 0px!important;
-  }
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
 
-  .fixed-top  {
-   -webkit-backface-visibility: hidden;
-  }
+.fixed-top {
+  -webkit-backface-visibility: hidden;
+}
 
-  .landing {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: table;
-    z-index: -1;
-  }
-  .home-wrap {
-    clip: rect(0, auto, auto, 0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .home-inner {
-    position: fixed;
-    display: table;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    will-change: transform;
-  }
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
 
-  .fixed-background {
-    position: relative;
-    width: 100%;
-  }
-  .fixed-wrap {
-    clip: rect(0, auto, auto, 0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -999!important;
-  }
-  .fixed {
-    position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    will-change: transform;
-  }
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+
+.fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
