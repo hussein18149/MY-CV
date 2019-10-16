@@ -35,7 +35,17 @@ body {
 .navbar-nav li {
   padding-right: 0.7rem;
 }
-
+.circular--square {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+/* .circular--square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+} */
 .navbar-dark .navbar-nav .nav-link {
   color: orangered;
   padding-top: 0.8rem;
@@ -47,7 +57,7 @@ body {
 }
 
 .home-inner {
-  background-image: url('./images/IMG_4241.JPG');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMvGwdJ5o743gdUU9BNaJpuRgJQ30bkl7iRv0ANz1jmDsa2ag0');
 }
 
 .home-pay {
