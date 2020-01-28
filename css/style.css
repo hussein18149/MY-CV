@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
 
 html {
   scroll-behavior: smooth;
@@ -40,12 +42,7 @@ body {
   width: 250px;
   height: 250px;
 }
-/* .circular--square {
-  border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
-} */
+
 .navbar-dark .navbar-nav .nav-link {
   color: orangered;
   padding-top: 0.8rem;
@@ -57,7 +54,7 @@ body {
 }
 
 .home-inner {
-  background-image: url('https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-image: url('https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
 }
 
 .home-pay {
@@ -72,9 +69,6 @@ body {
   z-index: 1;
   color: white;
   text-transform: uppercase;
-  /* background-color: black;
-  height: 100%;
-  opacity: 0.75; */
 }
 
 #kadweka {
@@ -88,7 +82,6 @@ body {
   font-weight: 700;
   letter-spacing: 0.3rem;
   text-shadow: 0.1rem 0.1rem 0.8rem black;
-  /* padding-bottom: 1rem; */
 }
 
 .caption h3 {
@@ -339,9 +332,11 @@ hr.socket {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-    /* background: white; */
   }
- 
+ .caption{
+  font-family: 'Anton', sans-serif;
+color: orangered;
+ }
 .fixed {
   position: fixed;
   display: block;
